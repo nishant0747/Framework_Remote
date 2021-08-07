@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="BASE_UTILITY.KiteVerifyProfileNameTest">
+        <methods>
+          <include name="logout"/>
+          <include name="VerifyProfilePageName"/>
+          <include name="logintokite"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="goToOrderTab"/>
+        </methods>
+      </class> <!-- BASE_UTILITY.KiteVerifyProfileNameTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
